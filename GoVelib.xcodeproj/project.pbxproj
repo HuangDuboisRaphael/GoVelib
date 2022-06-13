@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26B36F128578CAF006C4363 /* GoVelibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B36F028578CAF006C4363 /* GoVelibApp.swift */; };
+		C26B36F328578CAF006C4363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B36F228578CAF006C4363 /* ContentView.swift */; };
+		C26B36F528578CB1006C4363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26B36F428578CB1006C4363 /* Assets.xcassets */; };
+		C26B36F828578CB1006C4363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26B36F728578CB1006C4363 /* Preview Assets.xcassets */; };
+		C26B370228578CB1006C4363 /* GoVelibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B370128578CB1006C4363 /* GoVelibTests.swift */; };
+		C26B370C28578CB1006C4363 /* GoVelibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B370B28578CB1006C4363 /* GoVelibUITests.swift */; };
+		C26B370E28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B370D28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26B36FE28578CB1006C4363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26B36E528578CAF006C4363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26B36EC28578CAF006C4363;
+			remoteInfo = GoVelib;
+		};
+		C26B370828578CB1006C4363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26B36E528578CAF006C4363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26B36EC28578CAF006C4363;
+			remoteInfo = GoVelib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C26B36ED28578CAF006C4363 /* GoVelib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVelib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26B36F028578CAF006C4363 /* GoVelibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibApp.swift; sourceTree = "<group>"; };
+		C26B36F228578CAF006C4363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C26B36F428578CB1006C4363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26B36F728578CB1006C4363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C26B36FD28578CB1006C4363 /* GoVelibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVelibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26B370128578CB1006C4363 /* GoVelibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibTests.swift; sourceTree = "<group>"; };
+		C26B370728578CB1006C4363 /* GoVelibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVelibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26B370B28578CB1006C4363 /* GoVelibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibUITests.swift; sourceTree = "<group>"; };
+		C26B370D28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26B36EA28578CAF006C4363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B36FA28578CB1006C4363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B370428578CB1006C4363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26B36E428578CAF006C4363 = {
+			isa = PBXGroup;
+			children = (
+				C26B36EF28578CAF006C4363 /* GoVelib */,
+				C26B370028578CB1006C4363 /* GoVelibTests */,
+				C26B370A28578CB1006C4363 /* GoVelibUITests */,
+				C26B36EE28578CAF006C4363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26B36EE28578CAF006C4363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26B36ED28578CAF006C4363 /* GoVelib.app */,
+				C26B36FD28578CB1006C4363 /* GoVelibTests.xctest */,
+				C26B370728578CB1006C4363 /* GoVelibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26B36EF28578CAF006C4363 /* GoVelib */ = {
+			isa = PBXGroup;
+			children = (
+				C26B36F028578CAF006C4363 /* GoVelibApp.swift */,
+				C26B36F228578CAF006C4363 /* ContentView.swift */,
+				C26B36F428578CB1006C4363 /* Assets.xcassets */,
+				C26B36F628578CB1006C4363 /* Preview Content */,
+			);
+			path = GoVelib;
+			sourceTree = "<group>";
+		};
+		C26B36F628578CB1006C4363 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C26B36F728578CB1006C4363 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C26B370028578CB1006C4363 /* GoVelibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26B370128578CB1006C4363 /* GoVelibTests.swift */,
+			);
+			path = GoVelibTests;
+			sourceTree = "<group>";
+		};
+		C26B370A28578CB1006C4363 /* GoVelibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C26B370B28578CB1006C4363 /* GoVelibUITests.swift */,
+				C26B370D28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift */,
+			);
+			path = GoVelibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26B36EC28578CAF006C4363 /* GoVelib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26B371128578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelib" */;
+			buildPhases = (
+				C26B36E928578CAF006C4363 /* Sources */,
+				C26B36EA28578CAF006C4363 /* Frameworks */,
+				C26B36EB28578CAF006C4363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoVelib;
+			productName = GoVelib;
+			productReference = C26B36ED28578CAF006C4363 /* GoVelib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C26B36FC28578CB1006C4363 /* GoVelibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26B371428578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibTests" */;
+			buildPhases = (
+				C26B36F928578CB1006C4363 /* Sources */,
+				C26B36FA28578CB1006C4363 /* Frameworks */,
+				C26B36FB28578CB1006C4363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26B36FF28578CB1006C4363 /* PBXTargetDependency */,
+			);
+			name = GoVelibTests;
+			productName = GoVelibTests;
+			productReference = C26B36FD28578CB1006C4363 /* GoVelibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C26B370628578CB1006C4363 /* GoVelibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26B371728578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibUITests" */;
+			buildPhases = (
+				C26B370328578CB1006C4363 /* Sources */,
+				C26B370428578CB1006C4363 /* Frameworks */,
+				C26B370528578CB1006C4363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26B370928578CB1006C4363 /* PBXTargetDependency */,
+			);
+			name = GoVelibUITests;
+			productName = GoVelibUITests;
+			productReference = C26B370728578CB1006C4363 /* GoVelibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26B36E528578CAF006C4363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C26B36EC28578CAF006C4363 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C26B36FC28578CB1006C4363 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C26B36EC28578CAF006C4363;
+					};
+					C26B370628578CB1006C4363 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C26B36EC28578CAF006C4363;
+					};
+				};
+			};
+			buildConfigurationList = C26B36E828578CAF006C4363 /* Build configuration list for PBXProject "GoVelib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26B36E428578CAF006C4363;
+			productRefGroup = C26B36EE28578CAF006C4363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26B36EC28578CAF006C4363 /* GoVelib */,
+				C26B36FC28578CB1006C4363 /* GoVelibTests */,
+				C26B370628578CB1006C4363 /* GoVelibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26B36EB28578CAF006C4363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26B36F828578CB1006C4363 /* Preview Assets.xcassets in Resources */,
+				C26B36F528578CB1006C4363 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B36FB28578CB1006C4363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B370528578CB1006C4363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26B36E928578CAF006C4363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26B36F328578CAF006C4363 /* ContentView.swift in Sources */,
+				C26B36F128578CAF006C4363 /* GoVelibApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B36F928578CB1006C4363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26B370228578CB1006C4363 /* GoVelibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B370328578CB1006C4363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26B370C28578CB1006C4363 /* GoVelibUITests.swift in Sources */,
+				C26B370E28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C26B36FF28578CB1006C4363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26B36EC28578CAF006C4363 /* GoVelib */;
+			targetProxy = C26B36FE28578CB1006C4363 /* PBXContainerItemProxy */;
+		};
+		C26B370928578CB1006C4363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26B36EC28578CAF006C4363 /* GoVelib */;
+			targetProxy = C26B370828578CB1006C4363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C26B370F28578CB1006C4363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C26B371028578CB1006C4363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26B371228578CB1006C4363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoVelib/Preview Content\"";
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C26B371328578CB1006C4363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoVelib/Preview Content\"";
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C26B371528578CB1006C4363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVelib.app/GoVelib";
+			};
+			name = Debug;
+		};
+		C26B371628578CB1006C4363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVelib.app/GoVelib";
+			};
+			name = Release;
+		};
+		C26B371828578CB1006C4363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoVelib;
+			};
+			name = Debug;
+		};
+		C26B371928578CB1006C4363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoVelib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26B36E828578CAF006C4363 /* Build configuration list for PBXProject "GoVelib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26B370F28578CB1006C4363 /* Debug */,
+				C26B371028578CB1006C4363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26B371128578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26B371228578CB1006C4363 /* Debug */,
+				C26B371328578CB1006C4363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26B371428578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26B371528578CB1006C4363 /* Debug */,
+				C26B371628578CB1006C4363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26B371728578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26B371828578CB1006C4363 /* Debug */,
+				C26B371928578CB1006C4363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26B36E528578CAF006C4363 /* Project object */;
+}
