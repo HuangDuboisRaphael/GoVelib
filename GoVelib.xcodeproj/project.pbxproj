@@ -7,24 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20CDAEC285A49BC00310F72 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CDAEB285A49BC00310F72 /* Station.swift */; };
+		C2281203286395D30066B995 /* StationViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2281202286395D30066B995 /* StationViewModelTestCase.swift */; };
+		C228120A28639A530066B995 /* CLLocationCoordinate2D+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228120928639A530066B995 /* CLLocationCoordinate2D+Extensions.swift */; };
+		C228120C28639EB00066B995 /* LocationViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228120B28639EB00066B995 /* LocationViewModelTestCase.swift */; };
+		C228120F2863A26D0066B995 /* AlamofireSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228120E2863A26D0066B995 /* AlamofireSessionFake.swift */; };
+		C22812112863A2B40066B995 /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22812102863A2B40066B995 /* FakeResponseData.swift */; };
+		C22812152863A39F0066B995 /* ServiceManagerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22812142863A39F0066B995 /* ServiceManagerTestCase.swift */; };
+		C22812192863A4160066B995 /* Station.json in Resources */ = {isa = PBXBuildFile; fileRef = C22812182863A4160066B995 /* Station.json */; };
+		C22812222863B4030066B995 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C22812212863B4030066B995 /* Alamofire */; };
+		C22812242863B6030066B995 /* StationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22812232863B6030066B995 /* StationSession.swift */; };
+		C22812262863C58E0066B995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22812252863C58E0066B995 /* LaunchScreen.storyboard */; };
+		C2384690285B6B4400A715BF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C238468F285B6B4400A715BF /* Color+Extensions.swift */; };
+		C2384697285BA2FB00A715BF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2384696285BA2FB00A715BF /* View+Extensions.swift */; };
+		C238469A285BA3CA00A715BF /* HalfSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2384699285BA3CA00A715BF /* HalfSheetHelper.swift */; };
 		C26B36F128578CAF006C4363 /* GoVelibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B36F028578CAF006C4363 /* GoVelibApp.swift */; };
-		C26B36F328578CAF006C4363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B36F228578CAF006C4363 /* ContentView.swift */; };
 		C26B36F528578CB1006C4363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26B36F428578CB1006C4363 /* Assets.xcassets */; };
 		C26B36F828578CB1006C4363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26B36F728578CB1006C4363 /* Preview Assets.xcassets */; };
-		C26B370228578CB1006C4363 /* GoVelibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B370128578CB1006C4363 /* GoVelibTests.swift */; };
-		C26B370C28578CB1006C4363 /* GoVelibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B370B28578CB1006C4363 /* GoVelibUITests.swift */; };
-		C26B370E28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B370D28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift */; };
+		C26B371C2857C1E4006C4363 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C26B371B2857C1E4006C4363 /* .swiftlint.yml */; };
+		C26B37212857CA7B006C4363 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B37202857CA7B006C4363 /* StationViewModel.swift */; };
+		C26B37252857D03B006C4363 /* StationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B37242857D03B006C4363 /* StationResponse.swift */; };
+		C270C793285FD4DA0096252F /* DetailsSelectedStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270C792285FD4DA0096252F /* DetailsSelectedStationView.swift */; };
+		C2E81948285A1B2000F4FE38 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E81947285A1B2000F4FE38 /* LocationViewModel.swift */; };
+		C2F57FD72858C14500A0B2B4 /* StationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F57FD62858C14500A0B2B4 /* StationService.swift */; };
+		C2FDFA7C285E1FE20057A762 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDFA7B285E1FE20057A762 /* HomeView.swift */; };
+		C2FDFA7E285E274B0057A762 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDFA7D285E274B0057A762 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C26B36FE28578CB1006C4363 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C26B36E528578CAF006C4363 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C26B36EC28578CAF006C4363;
-			remoteInfo = GoVelib;
-		};
-		C26B370828578CB1006C4363 /* PBXContainerItemProxy */ = {
+		C2281204286395D30066B995 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C26B36E528578CAF006C4363 /* Project object */;
 			proxyType = 1;
@@ -34,49 +45,99 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20CDAEB285A49BC00310F72 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		C2281200286395D30066B995 /* GoVelibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVelibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2281202286395D30066B995 /* StationViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModelTestCase.swift; sourceTree = "<group>"; };
+		C228120928639A530066B995 /* CLLocationCoordinate2D+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extensions.swift"; sourceTree = "<group>"; };
+		C228120B28639EB00066B995 /* LocationViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModelTestCase.swift; sourceTree = "<group>"; };
+		C228120E2863A26D0066B995 /* AlamofireSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSessionFake.swift; sourceTree = "<group>"; };
+		C22812102863A2B40066B995 /* FakeResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
+		C22812142863A39F0066B995 /* ServiceManagerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManagerTestCase.swift; sourceTree = "<group>"; };
+		C22812182863A4160066B995 /* Station.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Station.json; sourceTree = "<group>"; };
+		C22812232863B6030066B995 /* StationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationSession.swift; sourceTree = "<group>"; };
+		C22812252863C58E0066B995 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C238468F285B6B4400A715BF /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		C2384696285BA2FB00A715BF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		C2384699285BA3CA00A715BF /* HalfSheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetHelper.swift; sourceTree = "<group>"; };
 		C26B36ED28578CAF006C4363 /* GoVelib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVelib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26B36F028578CAF006C4363 /* GoVelibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibApp.swift; sourceTree = "<group>"; };
-		C26B36F228578CAF006C4363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C26B36F428578CB1006C4363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26B36F728578CB1006C4363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C26B36FD28578CB1006C4363 /* GoVelibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVelibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C26B370128578CB1006C4363 /* GoVelibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibTests.swift; sourceTree = "<group>"; };
-		C26B370728578CB1006C4363 /* GoVelibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVelibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C26B370B28578CB1006C4363 /* GoVelibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibUITests.swift; sourceTree = "<group>"; };
-		C26B370D28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVelibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C26B371B2857C1E4006C4363 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C26B37202857CA7B006C4363 /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		C26B37242857D03B006C4363 /* StationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationResponse.swift; sourceTree = "<group>"; };
+		C270C792285FD4DA0096252F /* DetailsSelectedStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSelectedStationView.swift; sourceTree = "<group>"; };
+		C2E81947285A1B2000F4FE38 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		C2F57FD62858C14500A0B2B4 /* StationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationService.swift; sourceTree = "<group>"; };
+		C2FDFA7B285E1FE20057A762 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2FDFA7D285E274B0057A762 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C22811FD286395D30066B995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C26B36EA28578CAF006C4363 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C26B36FA28578CB1006C4363 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C26B370428578CB1006C4363 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C22812222863B4030066B995 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2281201286395D30066B995 /* GoVelibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2281202286395D30066B995 /* StationViewModelTestCase.swift */,
+				C228120B28639EB00066B995 /* LocationViewModelTestCase.swift */,
+				C228121A2863A8680066B995 /* ServiceTestCase */,
+			);
+			path = GoVelibTests;
+			sourceTree = "<group>";
+		};
+		C228121A2863A8680066B995 /* ServiceTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				C228120E2863A26D0066B995 /* AlamofireSessionFake.swift */,
+				C22812102863A2B40066B995 /* FakeResponseData.swift */,
+				C22812142863A39F0066B995 /* ServiceManagerTestCase.swift */,
+				C22812182863A4160066B995 /* Station.json */,
+			);
+			path = ServiceTestCase;
+			sourceTree = "<group>";
+		};
+		C238468E285B6B2B00A715BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C238468F285B6B4400A715BF /* Color+Extensions.swift */,
+				C228120928639A530066B995 /* CLLocationCoordinate2D+Extensions.swift */,
+				C2384696285BA2FB00A715BF /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C2384698285BA3A100A715BF /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+				C2384699285BA3CA00A715BF /* HalfSheetHelper.swift */,
+				C2FDFA7D285E274B0057A762 /* MapView.swift */,
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
 		C26B36E428578CAF006C4363 = {
 			isa = PBXGroup;
 			children = (
+				C26B371B2857C1E4006C4363 /* .swiftlint.yml */,
 				C26B36EF28578CAF006C4363 /* GoVelib */,
-				C26B370028578CB1006C4363 /* GoVelibTests */,
-				C26B370A28578CB1006C4363 /* GoVelibUITests */,
+				C2281201286395D30066B995 /* GoVelibTests */,
 				C26B36EE28578CAF006C4363 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C26B36ED28578CAF006C4363 /* GoVelib.app */,
-				C26B36FD28578CB1006C4363 /* GoVelibTests.xctest */,
-				C26B370728578CB1006C4363 /* GoVelibUITests.xctest */,
+				C2281200286395D30066B995 /* GoVelibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +155,13 @@
 			isa = PBXGroup;
 			children = (
 				C26B36F028578CAF006C4363 /* GoVelibApp.swift */,
-				C26B36F228578CAF006C4363 /* ContentView.swift */,
+				C26B371F2857CA50006C4363 /* Model */,
+				C2F57FD52858C11C00A0B2B4 /* Service */,
+				C2384698285BA3A100A715BF /* Representable */,
+				C26B371E2857CA46006C4363 /* ViewModel */,
+				C26B371D2857CA36006C4363 /* View */,
+				C238468E285B6B2B00A715BF /* Extensions */,
+				C22812252863C58E0066B995 /* LaunchScreen.storyboard */,
 				C26B36F428578CB1006C4363 /* Assets.xcassets */,
 				C26B36F628578CB1006C4363 /* Preview Content */,
 			);
@@ -110,26 +176,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C26B370028578CB1006C4363 /* GoVelibTests */ = {
+		C26B371D2857CA36006C4363 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C26B370128578CB1006C4363 /* GoVelibTests.swift */,
+				C2FDFA7B285E1FE20057A762 /* HomeView.swift */,
+				C270C792285FD4DA0096252F /* DetailsSelectedStationView.swift */,
 			);
-			path = GoVelibTests;
+			path = View;
 			sourceTree = "<group>";
 		};
-		C26B370A28578CB1006C4363 /* GoVelibUITests */ = {
+		C26B371E2857CA46006C4363 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				C26B370B28578CB1006C4363 /* GoVelibUITests.swift */,
-				C26B370D28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift */,
+				C26B37202857CA7B006C4363 /* StationViewModel.swift */,
+				C2E81947285A1B2000F4FE38 /* LocationViewModel.swift */,
 			);
-			path = GoVelibUITests;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C26B371F2857CA50006C4363 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C20CDAEB285A49BC00310F72 /* Station.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2F57FD52858C11C00A0B2B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C26B37242857D03B006C4363 /* StationResponse.swift */,
+				C2F57FD62858C14500A0B2B4 /* StationService.swift */,
+				C22812232863B6030066B995 /* StationSession.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C22811FF286395D30066B995 /* GoVelibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2281206286395D30066B995 /* Build configuration list for PBXNativeTarget "GoVelibTests" */;
+			buildPhases = (
+				C22811FC286395D30066B995 /* Sources */,
+				C22811FD286395D30066B995 /* Frameworks */,
+				C22811FE286395D30066B995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2281205286395D30066B995 /* PBXTargetDependency */,
+			);
+			name = GoVelibTests;
+			productName = GoVelibTests;
+			productReference = C2281200286395D30066B995 /* GoVelibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C26B36EC28578CAF006C4363 /* GoVelib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C26B371128578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelib" */;
@@ -137,51 +240,19 @@
 				C26B36E928578CAF006C4363 /* Sources */,
 				C26B36EA28578CAF006C4363 /* Frameworks */,
 				C26B36EB28578CAF006C4363 /* Resources */,
+				C26B371A2857C1CB006C4363 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GoVelib;
+			packageProductDependencies = (
+				C22812212863B4030066B995 /* Alamofire */,
+			);
 			productName = GoVelib;
 			productReference = C26B36ED28578CAF006C4363 /* GoVelib.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C26B36FC28578CB1006C4363 /* GoVelibTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C26B371428578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibTests" */;
-			buildPhases = (
-				C26B36F928578CB1006C4363 /* Sources */,
-				C26B36FA28578CB1006C4363 /* Frameworks */,
-				C26B36FB28578CB1006C4363 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C26B36FF28578CB1006C4363 /* PBXTargetDependency */,
-			);
-			name = GoVelibTests;
-			productName = GoVelibTests;
-			productReference = C26B36FD28578CB1006C4363 /* GoVelibTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C26B370628578CB1006C4363 /* GoVelibUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C26B371728578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibUITests" */;
-			buildPhases = (
-				C26B370328578CB1006C4363 /* Sources */,
-				C26B370428578CB1006C4363 /* Frameworks */,
-				C26B370528578CB1006C4363 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C26B370928578CB1006C4363 /* PBXTargetDependency */,
-			);
-			name = GoVelibUITests;
-			productName = GoVelibUITests;
-			productReference = C26B370728578CB1006C4363 /* GoVelibUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,16 +264,12 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					C22811FF286395D30066B995 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C26B36EC28578CAF006C4363;
+					};
 					C26B36EC28578CAF006C4363 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					C26B36FC28578CB1006C4363 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = C26B36EC28578CAF006C4363;
-					};
-					C26B370628578CB1006C4363 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = C26B36EC28578CAF006C4363;
 					};
 				};
 			};
@@ -215,86 +282,142 @@
 				Base,
 			);
 			mainGroup = C26B36E428578CAF006C4363;
+			packageReferences = (
+				C22812202863B4020066B995 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C26B36EE28578CAF006C4363 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C26B36EC28578CAF006C4363 /* GoVelib */,
-				C26B36FC28578CB1006C4363 /* GoVelibTests */,
-				C26B370628578CB1006C4363 /* GoVelibUITests */,
+				C22811FF286395D30066B995 /* GoVelibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C22811FE286395D30066B995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22812192863A4160066B995 /* Station.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C26B36EB28578CAF006C4363 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26B371C2857C1E4006C4363 /* .swiftlint.yml in Resources */,
+				C22812262863C58E0066B995 /* LaunchScreen.storyboard in Resources */,
 				C26B36F828578CB1006C4363 /* Preview Assets.xcassets in Resources */,
 				C26B36F528578CB1006C4363 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C26B36FB28578CB1006C4363 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C26B370528578CB1006C4363 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C26B371A2857C1CB006C4363 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C22811FC286395D30066B995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2281203286395D30066B995 /* StationViewModelTestCase.swift in Sources */,
+				C22812112863A2B40066B995 /* FakeResponseData.swift in Sources */,
+				C228120F2863A26D0066B995 /* AlamofireSessionFake.swift in Sources */,
+				C228120C28639EB00066B995 /* LocationViewModelTestCase.swift in Sources */,
+				C22812152863A39F0066B995 /* ServiceManagerTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C26B36E928578CAF006C4363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26B36F328578CAF006C4363 /* ContentView.swift in Sources */,
+				C2FDFA7C285E1FE20057A762 /* HomeView.swift in Sources */,
+				C20CDAEC285A49BC00310F72 /* Station.swift in Sources */,
+				C2384697285BA2FB00A715BF /* View+Extensions.swift in Sources */,
+				C2FDFA7E285E274B0057A762 /* MapView.swift in Sources */,
+				C238469A285BA3CA00A715BF /* HalfSheetHelper.swift in Sources */,
+				C26B37212857CA7B006C4363 /* StationViewModel.swift in Sources */,
+				C270C793285FD4DA0096252F /* DetailsSelectedStationView.swift in Sources */,
+				C2384690285B6B4400A715BF /* Color+Extensions.swift in Sources */,
+				C228120A28639A530066B995 /* CLLocationCoordinate2D+Extensions.swift in Sources */,
+				C22812242863B6030066B995 /* StationSession.swift in Sources */,
+				C26B37252857D03B006C4363 /* StationResponse.swift in Sources */,
+				C2F57FD72858C14500A0B2B4 /* StationService.swift in Sources */,
 				C26B36F128578CAF006C4363 /* GoVelibApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C26B36F928578CB1006C4363 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C26B370228578CB1006C4363 /* GoVelibTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C26B370328578CB1006C4363 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C26B370C28578CB1006C4363 /* GoVelibUITests.swift in Sources */,
-				C26B370E28578CB1006C4363 /* GoVelibUITestsLaunchTests.swift in Sources */,
+				C2E81948285A1B2000F4FE38 /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C26B36FF28578CB1006C4363 /* PBXTargetDependency */ = {
+		C2281205286395D30066B995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C26B36EC28578CAF006C4363 /* GoVelib */;
-			targetProxy = C26B36FE28578CB1006C4363 /* PBXContainerItemProxy */;
-		};
-		C26B370928578CB1006C4363 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C26B36EC28578CAF006C4363 /* GoVelib */;
-			targetProxy = C26B370828578CB1006C4363 /* PBXContainerItemProxy */;
+			targetProxy = C2281204286395D30066B995 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C2281207286395D30066B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVelib.app/GoVelib";
+			};
+			name = Debug;
+		};
+		C2281208286395D30066B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V54XUHS56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVelib.app/GoVelib";
+			};
+			name = Release;
+		};
 		C26B370F28578CB1006C4363 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -422,11 +545,14 @@
 				DEVELOPMENT_TEAM = V54XUHS56L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to display the Vélib' stations around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +562,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,11 +577,14 @@
 				DEVELOPMENT_TEAM = V54XUHS56L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to display the Vélib' stations around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,89 +594,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C26B371528578CB1006C4363 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V54XUHS56L;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVelib.app/GoVelib";
-			};
-			name = Debug;
-		};
-		C26B371628578CB1006C4363 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V54XUHS56L;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVelib.app/GoVelib";
-			};
-			name = Release;
-		};
-		C26B371828578CB1006C4363 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V54XUHS56L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GoVelib;
-			};
-			name = Debug;
-		};
-		C26B371928578CB1006C4363 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V54XUHS56L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raphael.huangdubois.GoVelibUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GoVelib;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C2281206286395D30066B995 /* Build configuration list for PBXNativeTarget "GoVelibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2281207286395D30066B995 /* Debug */,
+				C2281208286395D30066B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C26B36E828578CAF006C4363 /* Build configuration list for PBXProject "GoVelib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -566,25 +628,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C26B371428578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C26B371528578CB1006C4363 /* Debug */,
-				C26B371628578CB1006C4363 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C26B371728578CB1006C4363 /* Build configuration list for PBXNativeTarget "GoVelibUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C26B371828578CB1006C4363 /* Debug */,
-				C26B371928578CB1006C4363 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C22812202863B4020066B995 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C22812212863B4030066B995 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C22812202863B4020066B995 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C26B36E528578CAF006C4363 /* Project object */;
 }

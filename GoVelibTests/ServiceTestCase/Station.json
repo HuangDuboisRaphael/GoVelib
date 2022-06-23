@@ -1,0 +1,325 @@
+{
+    "nhits": 31,
+    "parameters": {
+        "dataset": "velib-disponibilite-en-temps-reel",
+        "rows": 10,
+        "start": 0,
+        "format": "json",
+        "geofilter.distance": [
+            "48.917402,2.269675,2500"
+        ],
+        "timezone": "UTC"
+    },
+    "records": [
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "1595e25f40c5d791ac54cc2381c15e77594f5959",
+            "fields": {
+                "name": "Hispano Suiza - Parc des Bruyères",
+                "stationcode": "22701",
+                "ebike": 0,
+                "mechanical": 0,
+                "coordonnees_geo": [
+                    48.915885074177,
+                    2.2682306702811
+                ],
+                "duedate": "2021-08-05T13:59:05+00:00",
+                "numbikesavailable": 0,
+                "numdocksavailable": 0,
+                "capacity": 0,
+                "is_renting": "NON",
+                "is_installed": "NON",
+                "nom_arrondissement_communes": "Bois-Colombes",
+                "is_returning": "NON",
+                "dist": "198.97706072357428"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2682306702811,
+                    48.915885074177
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "7d70a9827c8f7c59c9ad8639a1832c98d02c9a09",
+            "fields": {
+                "name": "Place Jean Mermoz",
+                "stationcode": "22703",
+                "ebike": 7,
+                "mechanical": 11,
+                "coordonnees_geo": [
+                    48.9220937,
+                    2.2718348
+                ],
+                "duedate": "2022-06-22T17:43:22+00:00",
+                "numbikesavailable": 18,
+                "numdocksavailable": 12,
+                "capacity": 30,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Bois-Colombes",
+                "is_returning": "OUI",
+                "dist": "545.0347325323098"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2718348,
+                    48.9220937
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "cc3bc1de477fb22eaec00e572c26c521dc607c72",
+            "fields": {
+                "name": "Henri Barbusse - Bourguignons",
+                "stationcode": "26008",
+                "ebike": 10,
+                "mechanical": 11,
+                "coordonnees_geo": [
+                    48.91301722799713,
+                    2.2734212270774417
+                ],
+                "duedate": "2022-06-22T17:44:11+00:00",
+                "numbikesavailable": 21,
+                "numdocksavailable": 12,
+                "capacity": 34,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Asnières-sur-Seine",
+                "is_returning": "OUI",
+                "dist": "559.1625558703373"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2734212270774417,
+                    48.91301722799713
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "ebbe8222abeb3448a523bf0ac269be3f97e41001",
+            "fields": {
+                "name": "Argenteuil - Voltaire",
+                "stationcode": "26003",
+                "ebike": 6,
+                "mechanical": 9,
+                "coordonnees_geo": [
+                    48.91864865955558,
+                    2.2814112156629562
+                ],
+                "duedate": "2022-06-22T17:43:29+00:00",
+                "numbikesavailable": 15,
+                "numdocksavailable": 1,
+                "capacity": 16,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Asnières-sur-Seine",
+                "is_returning": "OUI",
+                "dist": "868.7029860749415"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2814112156629562,
+                    48.91864865955558
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "3503379eefc7e6f5048f62dc7fb45d2664673d62",
+            "fields": {
+                "name": "Victor Hugo - Gare",
+                "stationcode": "27006",
+                "ebike": 6,
+                "mechanical": 11,
+                "coordonnees_geo": [
+                    48.92313395265796,
+                    2.2600970417261124
+                ],
+                "duedate": "2022-06-22T17:38:03+00:00",
+                "numbikesavailable": 17,
+                "numdocksavailable": 5,
+                "capacity": 22,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Colombes",
+                "is_returning": "OUI",
+                "dist": "946.5733011014734"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2600970417261124,
+                    48.92313395265796
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "637b9cf516bb9347eec8d904de93cf91cdc9a500",
+            "fields": {
+                "name": "Gare des Vallées",
+                "stationcode": "22506",
+                "ebike": 4,
+                "mechanical": 4,
+                "coordonnees_geo": [
+                    48.913179,
+                    2.257726
+                ],
+                "duedate": "2022-06-22T17:41:45+00:00",
+                "numbikesavailable": 8,
+                "numdocksavailable": 11,
+                "capacity": 20,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "La Garenne-Colombes",
+                "is_returning": "OUI",
+                "dist": "991.429270455139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.257726,
+                    48.913179
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "7bfc314240351a898ffb5767bdede3654bfa3089",
+            "fields": {
+                "name": "Square Gilbert Thomain",
+                "stationcode": "26007",
+                "ebike": 5,
+                "mechanical": 9,
+                "coordonnees_geo": [
+                    48.90717373809284,
+                    2.2695400938391685
+                ],
+                "duedate": "2022-06-22T17:43:00+00:00",
+                "numbikesavailable": 14,
+                "numdocksavailable": 4,
+                "capacity": 20,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Asnières-sur-Seine",
+                "is_returning": "OUI",
+                "dist": "1137.3788777727652"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2695400938391685,
+                    48.90717373809284
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "cd284cf930305af366dbc35db1de4a3400cd879c",
+            "fields": {
+                "name": "Adolphe Lalyre - Armand Silvestre",
+                "stationcode": "24006",
+                "ebike": 10,
+                "mechanical": 28,
+                "coordonnees_geo": [
+                    48.90406266961591,
+                    2.273416221141815
+                ],
+                "duedate": "2022-06-22T17:44:07+00:00",
+                "numbikesavailable": 38,
+                "numdocksavailable": 1,
+                "capacity": 40,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Courbevoie",
+                "is_returning": "OUI",
+                "dist": "1508.260464117558"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.273416221141815,
+                    48.90406266961591
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "631d6b62b75ec12200260876686f14ce946e8ab7",
+            "fields": {
+                "name": "Hôtel de Ville d'Asnières sur Seine",
+                "stationcode": "26005",
+                "ebike": 13,
+                "mechanical": 14,
+                "coordonnees_geo": [
+                    48.90999330025577,
+                    2.288238108158112
+                ],
+                "duedate": "2022-06-22T17:43:45+00:00",
+                "numbikesavailable": 27,
+                "numdocksavailable": 2,
+                "capacity": 30,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Asnières-sur-Seine",
+                "is_returning": "OUI",
+                "dist": "1587.0883203788774"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288238108158112,
+                    48.90999330025577
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "55230365510ca8ed98b244cdbf152f6935f96c73",
+            "fields": {
+                "name": "Gare d'Asnières sur Seine",
+                "stationcode": "26001",
+                "ebike": 4,
+                "mechanical": 15,
+                "coordonnees_geo": [
+                    48.90636459217474,
+                    2.2835066914558415
+                ],
+                "duedate": "2022-06-22T17:41:39+00:00",
+                "numbikesavailable": 19,
+                "numdocksavailable": 1,
+                "capacity": 24,
+                "is_renting": "OUI",
+                "is_installed": "OUI",
+                "nom_arrondissement_communes": "Asnières-sur-Seine",
+                "is_returning": "OUI",
+                "dist": "1589.9784924175733"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2835066914558415,
+                    48.90636459217474
+                ]
+            },
+            "record_timestamp": "2022-06-22T18:18:00.433Z"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+disabled_rules:
+    - trailing_whitespace
+    - identifier_name
+    - comma
+
+line_length:
+    warning: 550
+    error: 600
