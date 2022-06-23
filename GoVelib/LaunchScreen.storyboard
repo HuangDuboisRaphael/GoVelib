@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" constant="200" id="OEy-fs-ivO"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bicycle-1" translatesAutoresizingMaskIntoConstraints="NO" id="UM4-Ma-oWo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Bicycle" translatesAutoresizingMaskIntoConstraints="NO" id="UM4-Ma-oWo">
                                 <rect key="frame" x="320" y="487" width="79" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="79" id="0qd-g2-KuP"/>
@@ -47,7 +47,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Bicycle" width="170.5" height="170.5"/>
         <image name="Icon" width="341.5" height="341.5"/>
-        <image name="bicycle-1" width="170.5" height="170.5"/>
     </resources>
 </document>
